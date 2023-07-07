@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+
+body {
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+#header {
+    /* position: fixed; */
+    width: 100%;
+    height: 150px;
+}
+.hedaer-inner {
+    align-items: center;
+    margin: 10px auto;
+    position: relative;
+}
+#header h1 {
+    left: 30px;
+    position: absolute;
+    top: 20px;
+    width: 123px;
+    height: 48px;
+    background: url(../imges/logo.png);
+}
+#header nav {
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+#header .hedaer-inner ul.gnb {
+    /* display: inline-block; */
+    float: left;
+    height: 100%;
+    text-align: center;
+    margin-right: 800px;
+    margin-top: -18px;
+    background-color: black;
+    
+}
+
+#header .gnb {
+    margin-right: 900px;
+    margin-top: -20px;
+}
+
+#header .gnb li  {
+    display: inline-block;
+}
+#header .gnb > li .one_depth {
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    color: #000;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+header .gnb > li .one_depth:nth-child(1) {
+    padding-left: 0;
+}
+
+.gnb > li .one_depth {
+    font-size: 20px;
+}
+#header .gnb > li .two_pack {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 150px;
+    font-size: 16px;
+    width: 100%;
+    letter-spacing: 0;
+}
+
+#header .gnb > li .two_pack > li {
+    padding: 0 40px;
+    display: table-cell;
+
+}
+#header .gnb >li .two_pack > li:nth-child(1) {
+    padding-left: 0;
+}
+
+#header .gnb > li .two_pack .two_depth {
+    white-space: nowrap;
+    color: #1f1f1f;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+}
+#header .gnb > li .three_pack {
+    margin: 19px;
+    text-align: left;
+}
+#header .gnb > li .three_pack .three_depth {
+    position: relative;
+    display: inline-block;
+    color: #444;
+    line-height: 26px;
+    white-space: nowrap;
+}
+/* gnb 끝 */
+
+#header .utils {
+
+}
+
+#header .utils .links {
+    display: flex;
+}
+#header .utils .links > a {
+    font-size: 14px;
+    color: #000;
+}
+#header .utils .links > a + a {
+    margin-left: 7px;
+}
+.wrap {
+    background: url(../imges/main.jpg);
+    width: 100%;
+    height: 1888px;
+}

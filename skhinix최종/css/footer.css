@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+ul, ol, li {
+    list-style: none;
+}
+footer {
+    position: relative;
+    padding: 100px 70px 100px 50px;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+    z-index: 6;
+    height: 550px;
+}
+footer .link-cont .typo-small-bold {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+footer .right-area {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+}
+footer .f-utils {
+    display: flex;
+}
+footer .f-utils > div {
+    padding: 0 30px 0 10px;
+    margin-left: 5px;
+    background-color: #fff;
+    border: 1px solid silver;
+    height: 40px;
+}
+footer .f-utils > div > a {
+    text-decoration: none;
+    line-height: 40px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+footer .f-utils > div > a > span {
+    position: absolute;
+    width: 11px;
+    height: 12px;
+    top: 5px; right: -20px;
+    background: url(../imges/arrow.png);
+}
+
+footer .left-area .com-info {
+    padding: 50px 0 25px;
+    color: #838383;
+    font-size: 15px;
+    font-weight: bold;
+}
+.copy-cont {
+    font-size: 15px;
+    font-weight: bold;
+    color: #838383;
+    opacity: 0.3;
+}
+
+footer .left-area .com-info li {
+    line-height: 30px;
+}
+footer .icon-area {
+    position: absolute;
+    top: 257px;
+    bottom: 280px;
+    right: 50px;
+    width: 400px;
+}
+footer .sns-link a.facebook {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url('../imges/facebook.png') no-repeat center/cover;
+    float: left;
+}
+footer .sns-link a.instagram {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url('../imges/instagram.png') no-repeat
+    center/cover;
+    float: left;
+}
+footer .sns-link a.youtube {
+    display: block;
+    width: 40px;
+    height: 28px;
+    margin-right: 10px;
+    background: url('../imges/youtube.png') no-repeat
+    center/cover;
+    float: left;
+}
+
+.web-award > a > span {
+    background: url(../imges/footer_logo.png)no-repeat
+    center/cover;
+    width: 54px;
+    height: 38px;
+    z-index: 999;
+}
+footer .web-award {
+    position: relative;
+    display: inline-block;
+    top: -45px;
+    left: -10px;
+    width: 238px;
+    height: 65px;
+    background: url(../imges/footer_logo.png)no-repeat
+    0 0 / 100% 100%;
+    float: right;
+}
+
+/* 반응형 */
+@media screen and (max-width:1024px) {
+    footer .left-area .link-cont li  {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 25px;
+        position: relative;
+        bottom: 30px;
+    }
+    footer .left-area .link-cont {
+        position: relative;
+        bottom: 40px;
+    }
+    footer .right-area {
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+    footer .right-area .f-utils {
+        display: block;
+        margin-top: 30px;
+        position: relative;
+        bottom: 160px;
+    }
+   
+    footer .right-area .f-utils > div {
+        margin-left: 0;
+    }
+    footer .right-area .f-utils > div + div {
+        margin-top: 5px;
+    }
+    footer .left-area .com-info {
+        position: relative;
+        top: 180px;
+        padding: 30px 0;
+    }
+    footer .left-area .com-info li {
+        line-height: 18px;
+    }
+    .typo-small-medium {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .footer .icon-area {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        margin-top: 30px;
+    }
+    footer .f-utils > div > a > span {
+        position: absolute;
+        width: 10px;
+        height: 11px;
+        top: 12px; right: -16px;
+        background: url(../imges/arrow.png);
+    }
+      footer .f-utils > div > a {
+        display: block;
+        width: 100%;
+      }
+    footer .sns-link {
+        display: inline-flex;
+        align-items: center;
+        margin-right: 28px;
+        position: relative;
+        top: 197px;
+        left: 200px;
+    }
+    footer .sns-link a.facebook {
+        width: 15px;
+        height: 15px;
+        background: url('../imges/facebook.png') no-repeat center/cover;
+    }
+    footer .sns-link a.instagram {
+        width: 15px;
+        height: 15px;
+        background: url('../imges/instagram.png') no-repeat center/cover;
+    }
+    footer .sns-link a.youtube {
+        width: 15px;
+        height: 15px;
+        background: url('../imges/youtube.png   ') no-repeat center/cover;
+    }
+    footer .web-award {
+        position: relative;
+        top: 200px;
+        width: 82px;
+        height: 28px;
+    }
+}

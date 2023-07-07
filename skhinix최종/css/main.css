@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    height: 5000px;
+}
+
+li { list-style: none;}
+a {
+    text-decoration: none;
+    color: black;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+/* header */
+.header {
+    width: 100%;
+    height: 1880px;
+    background: url(../imges/mainbg.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+} 
+
+.mainmenu {
+    width: 100%;
+    position: absolute;
+}
+    
+
+.header .inner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.header .inner .gnb {
+    width: 1920px;
+    height: 440px;
+}
+
+.header .inner .logo {
+    background-image: url(../imges/회사-로고.png) ;
+    width: 128px;
+    height: 128px;
+}
+
+.header .inner .gnb .mainmenu {
+    width: 1920px;
+}
+
+
+.header .inner .gnb .mainmenu > li {
+    float: left;
+    width: 70px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+}   
+.header .inner .mainmenu > li a {
+    display: block;
+    width: 98px;
+    height: 50px;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 30px ;
+}
+
+.header .inner .mainmenu > li:hover > a {
+    color: skyblue;
+    font-weight: bolder;
+}
+.header .inner .mainmenu > li:hover > .sub1 {
+    width: 1920px;
+    height: 500px;
+}
+.header .inner .gnb .mainmenu > li > .sub1 {
+    /* height: 128px; */
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    /* display: none; */
+}
+.header .inner .mainmenu > li:hover > .sub1 {
+    
+}
+.rightmenu {
+    width: 500px;
+    height: 300px;
+ 
+}
+.mainmenu .rightmenu .menuright {
+    width: 98px;
+    height: 80px;
+}

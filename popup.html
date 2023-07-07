@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup박스</title>
+    <!-- 제이쿼리 cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+     <!-- 폰트어썸 -->
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+     <!-- 팝업창 -->
+     <section id="about">
+        <div class="web-inner">
+          <div class="bubble">
+          <div class="web-img">
+            <div class="web-top"><span></span><span></span><span></span></div>
+            <div class="popup-mainbox">
+              <div class="popup-header">
+                <h1>About me</h1>
+                <span></span>
+              </div>
+              <div class="popup-title">
+              </div>
+              <div class="popup-all">
+                <div class="popup-left">
+                  <div class="proflie">
+                    <div class="face">
+                      <div class="face-img">
+                        <img src="img/profile2.jpeg" alt="프로필">
+                      </div>
+                    </div>
+                    <div class="pro-text">
+                      <div class="top-text">
+                      <p>박지훈 (Park Ji Hun)</p>
+                      <p>Birth : 1999.01.07</p>
+                    </div>
+                    <div class="bottom-text">
+                      <p>contect</p>
+                      <p>TEL : 010.8294.6158</p>
+                      <p>E-MAIL: wlqkr31@naver.com</p>
+                      <p>GIT : 사이트 예정</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="popup-right">
+                  <div class="popupline">
+                  <div class="Toll-Ability">
+                    <h2>Nature(성격)</h2>
+                    <p>사람들의 다양한 생각을 받아드릴 수 있는 유연한 사람</p>
+                    <p>독특한 시각으로 바라볼줄 아는 사람</p>
+                    <p>어떤 일이든 효율적으로 하는 것을 좋아힙니다</p>
+                  </div>
+                  <div class="Toll-Ability">
+                    <h2>Education</h2>
+                    <p>23.07 UIUX 반응형 웹디자인&웹퍼블리셔 교육과정 수료</p>
+                    <p>17.02 울산화암고등학교 졸업</p>
+                  </div>
+                  <div class="Toll-Ability">
+                    <h2>License</h2>
+                    <p>23.08 웹디자인 기능사 필기(합격),실기 예정</p>
+                    <p>20.11 1종보통운전면허</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pop-btm">
+                <h2>Toll Ability</h2>
+                  <div class="tool">
+                  <span class="skils01"></span>
+                  <span class="skils02"></span>
+                  <span class="skils03"></span>
+                  <span class="skils04"></span>
+                  <span class="skils05"></span>
+                  <span class="skils06"></span>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+    </section>
+    <script>
+      $(document).ready(function(){
+    $('.web-top span:nth-child(1)').click(()=>{
+        self.close();
+    })
+})
+    </script>
+</body>
+</html>
