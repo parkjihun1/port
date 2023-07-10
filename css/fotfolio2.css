@@ -2513,7 +2513,7 @@ body {
   }
 
   .bubble::before {
-    left: 35%;
+    left: 25%;
   }
     .bubble::after {
       left: 15%;
