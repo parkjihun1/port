@@ -940,7 +940,7 @@ header .header-two {
     transform: translateX(-50%);
     left: 50% !important;
     top: 205px;
-    width: 100% !important;
+    /* width: 100% !important; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2502,15 +2502,29 @@ body {
 }
 
 @media screen and (max-width: 404px) {
+  #image_design {
+    height: 640px;
+  }
   .square {
-    font-size: 2.7rem;
+    font-size: 2.4rem;
   }
   .Thank {
     font-size: 1.6rem;
   }
+
+  .bubble::before {
+    left: 35%;
+  }
+    .bubble::after {
+      left: 15%;
+    }
+    .container {
+      height: 60vh;
+    }
 }
 /* @media screen and (max-width: 520px) {
   .dummy p {
     font-size: 0.8rem;
   }
 } */
+

@@ -157,8 +157,8 @@
     border-radius: 10px 10px 0 0;
   }
   .web-top span:nth-child(1) {
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     background-color: red;
     border-radius: 50%;
     position: absolute;
@@ -167,8 +167,8 @@
     cursor: pointer;
   }
   .web-top span:nth-child(2) {
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     background-color: #ffb526;
     border-radius: 50%;
     position: absolute;
@@ -177,8 +177,8 @@
     cursor: pointer;
   }
   .web-top span:nth-child(3) {
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     background-color: #1CC92D;
     border-radius: 50%;
     position: absolute;
@@ -193,7 +193,7 @@
     padding-top: 3%;
   }
   .popup-header h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     color: #000;
     padding-bottom: 0.5rem;
@@ -216,7 +216,7 @@
   } */
 .popup-all {
   display: flex;
-  height: 340px;
+  width: 100%;
 }
 
   .popup-mainbox .popup-left {
@@ -232,14 +232,10 @@
     padding-top: 1rem;
   }
   .face .face-img {
-    width: 300px;
-    height: 300px;
-    background-color: #1CC92D;
-    
+    width: 100%;
   }
   .face-img img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
   }
   .proflie .pro-text {
     width: 60%;
@@ -250,26 +246,27 @@
     padding-left: 1rem;
   }
   .pro-text .top-text p {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #000;
     padding-left: 1rem;
     padding-top: 0.5rem;
     font-family: 'SUITE-Regular';
+    transition: all 0.5s;
   }
   .pro-text p:nth-child(2) {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: #000;
   }
 
   .pro-text p:nth-child(3) {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: #000;
   }
   .pro-text p:nth-child(4) {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: #000;
   }
@@ -279,12 +276,12 @@
   }
 
   .pro-text .bottom-text p:first-child {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
 
   }
   .pro-text .bottom-text p {
-    font-size: 18px;
+    font-size: 1.125rem;
     padding-bottom: 1rem;
     margin-left: 1rem;
     font-family: 'SUITE-Regular';
@@ -294,20 +291,19 @@
   .popup-mainbox .popup-right {
     width: 40%;
     margin-bottom: 10%;
-    
   }
   .popupline .Toll-Ability {
     padding-bottom: 2rem;
   }
   .popupline h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     color: #000;
     margin-bottom: 1rem;
     font-family: 'SUITE-Regular';
   }
   .Toll-Ability p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     color: #000;
     font-family: 'SUITE-Regular';
@@ -318,60 +314,61 @@
     width: 100%;
   }
   .pop-btm h2 {
-    font-size: 28px;
-    padding-left: 3.2rem;
+    font-size: 1.5625rem;
+    padding-left: 1.7rem;
+    padding-top: 1rem;
     font-family: 'SUITE-Regular';
   }
   .pop-btm .tool {
     display: flex;
-    gap: 3rem;
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
+    gap: 1.2rem;
   }
   .tool .skils01 {
     background: url(../img/html.png)no-repeat;
-    background-size: cover;
-    width: 65px;
-    height: 65px;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
     display: inline-block;
     transition: all 0.5s;
   }
   .tool .skils02 {
     background: url(../img/css.png)no-repeat;
-    background-size: cover;
-    width: 65px;
-    height: 65px;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
     display: inline-block;
     transition: all 0.5s;
   }
   .tool .skils03 {
     background: url(../img/javascript.png)no-repeat;
-    background-size: cover;
-    width: 65px;
-    height: 65px;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
     display: inline-block;
     transition: all 0.5s;
   }
   .tool .skils04 {
     background: url(../img/photoshop.png)no-repeat;
-    background-size: cover;
-    width: 65px;
-    height: 65px;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
     display: inline-block;
     transition: all 0.5s;
   }
   .tool .skils05 {
     background: url(../img/illustrator.png)no-repeat;
-    background-size: cover;
-    width: 65px;
-    height: 65px;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
     display: inline-block;
     transition: all 0.5s;
   }
   .tool .skils06 {
     background: url(../img/figma.png)no-repeat;
-    background-size: cover;
-    width: 65px;
-    height: 65px;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
     display: inline-block;
     transition: all 0.5s;
   }
@@ -393,3 +390,208 @@
   .tool .skils06:hover {
     transform: translateY(-2rem);
   }
+
+  @media screen and (max-width: 1488px) {
+    html {
+      font-size: 15px;
+    }
+    .pro-text .top-text p {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #000;
+      padding-left: 1rem;
+      padding-top: 0.5rem;
+      font-family: 'SUITE-Regular';
+      transition: all 0.5s;
+    }
+  }
+  @media screen and (max-width: 1166px) {
+    html {
+      font-size: 14px;
+    }
+    .popup-all {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
+    .pro-text .top-text p {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #000;
+      padding-left: 1rem;
+      padding-top: 0.5rem;
+      font-family: 'SUITE-Regular';
+      transition: all 0.5s;
+    }
+    .popup-mainbox .popup-right {
+      width: 100%;
+      padding-top: 2rem;
+      padding-left: 2.8rem;
+    }
+    .popup-right .popupline {
+      display: flex;
+      gap: 4rem;
+    }
+    .popup-mainbox .popup-left {
+      width: 100%;
+  }
+    .pop-btm {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 900px) {
+     html {
+      font-size: 13px;
+    }
+    .bubble::before {
+      display: none;
+    }
+    .bubble::after {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .popup-right .popupline {
+      display: flex;
+      flex-direction: column;
+      gap: 1.3rem;
+    }
+    .popupline .Toll-Ability {
+      padding: 0;
+    }
+    .popupline .Toll-Ability:nth-child(3) {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 644px) {
+    html {
+      font-size: 12px;
+    }
+  }
+   @media screen and (max-width: 468px) {
+    html {
+      font-size: 10px;
+    }
+  }
+   @media screen and (max-width: 395px) {
+    html {
+      font-size: 11px;
+    }
+  .proflie .face {
+    width: 61%;
+    padding-top: 1rem;
+}
+.popup-mainbox .popup-header {
+    height: 101px;
+  }
+   .popup-left .proflie {
+    flex-wrap: wrap;
+   }
+   .pro-text .top-text {
+    width: 100%;
+    padding-left: 0;
+  }
+  .pro-text .top-text p:nth-child(1) {
+    padding: 1rem 0;
+  }
+  .pro-text .top-text p:nth-child(2) {
+    padding: 0;
+  }
+   .pro-text .bottom-text {
+    width: 100%;
+    padding-left: 0;
+  }
+  .pro-text .bottom-text p {
+    margin-left: 0;
+  }
+  .pop-btm {
+    display: block;
+  }
+  .popup-mainbox .popup-right  {
+    display: none;
+  }
+  .pop-btm h2 {
+    padding-left: 0;
+  }
+  .pop-btm .tool {
+    padding: 2rem 0;
+  }
+  .tool .skils01 {
+    width: 100px;
+    height: 100px;
+    background: url(../img/html.png)no-repeat;
+    background-size: contain;
+    display: inline-block;
+    transition: all 0.5s;
+  }
+  .tool .skils02 {
+    width: 100px;
+    height: 100px;
+    background: url(../img/css.png)no-repeat;
+    background-size: contain;
+    display: inline-block;
+    transition: all 0.5s;
+  }
+  .tool .skils03 {
+    width: 100px;
+    height: 100px;
+    background: url(../img/javascript.png)no-repeat;
+    background-size: contain;
+    display: inline-block;
+    transition: all 0.5s;
+  }
+  .tool .skils04 {
+    width: 100px;
+    height: 100px;
+    background: url(../img/photoshop.png)no-repeat;
+    background-size: contain;
+    display: inline-block;
+    transition: all 0.5s;
+  }
+  .tool .skils05 {
+    width: 100px;
+    height: 100px;
+    background: url(../img/illustrator.png)no-repeat;
+    background-size: contain;
+    display: inline-block;
+    transition: all 0.5s;
+  }
+  .tool .skils06 {
+    width: 100px;
+    height: 100px;
+    background: url(../img/figma.png)no-repeat;
+    background-size: contain;
+    display: inline-block;
+    transition: all 0.5s;
+  }
+  .web-top span:nth-child(1) {
+    width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 3%;
+    cursor: pointer;
+}
+  .web-top span:nth-child(2) {
+    width: 1rem;
+    height: 1rem;
+    background-color: #ffb526;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 7%;
+    cursor: pointer;
+  }
+  .web-top span:nth-child(3) {
+    width: 1rem;
+    height: 1rem;
+    background-color: #1CC92D;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 11%;
+    cursor: pointer;
+}
+   }
