@@ -1,0 +1,3 @@
+Yeti(naver) Googlebot(google) Daumoa(daum)
+User-agent; *
+Allow: /
