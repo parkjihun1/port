@@ -274,7 +274,7 @@ header .header-two {
   width: 600px;
   height: 600px;
   position: absolute;
-  top: 38%; left: 51%;
+  top: 37%; left: 49%;
   transform: translate(-50%, -50%);
   border-radius: 45%;
   background: rgba(3, 169, 244, 0.8);
@@ -286,7 +286,7 @@ header .header-two {
   width: 650px;
   height: 650px;
   position: absolute;
-  top: 34%; left: 53%;
+  top: 33%; left: 51%;
   transform: translate(-50%, -50%);
   border-radius: 45%;
   background: rgba(34, 79, 242, 0.8);
@@ -297,7 +297,7 @@ header .header-two {
   width: 550px;
   height: 550px;
   position: absolute;
-  top: 35%; left: 52%;
+  top: 34%; left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 45%;
   background-color: darkorchid;
@@ -2076,12 +2076,12 @@ body {
 }
 @media screen and (max-width: 390px) {
   .wave-one {
-    width: 260px;
-    height: 260px;
+    width: 240px;
+    height: 240px;
   }
   .wave-two {
-    width: 310px;
-    height: 310px;
+    width: 260px;
+    height: 260px;
   }
   .wave-tr {
     width: 210px;
