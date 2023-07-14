@@ -2093,6 +2093,9 @@ body {
   .header-inner p a {
     font-size: 25px;
 }
+.circle .sub-title {
+  top: 42%;
+}
 }
 /* 배너슬라이드 */
 @media screen and (max-width: 650px) {
