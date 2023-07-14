@@ -2521,7 +2521,11 @@ body {
     .container {
       height: 60vh;
     }
+    .button__text {
+      font-size: 8.5px;
+    }
 }
+
 /* @media screen and (max-width: 520px) {
   .dummy p {
     font-size: 0.8rem;
