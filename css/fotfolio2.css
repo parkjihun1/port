@@ -2078,14 +2078,17 @@ body {
   .wave-one {
     width: 240px;
     height: 240px;
+    top: 37%;
   }
   .wave-two {
     width: 260px;
     height: 260px;
+    top: 33%;
   }
   .wave-tr {
     width: 210px;
     height: 210px;
+    top: 34%;
   }
   .circle .main-title p, .circle .sub-title p {
     font-size: 27px;
