@@ -1866,10 +1866,10 @@ body {
   width: 40px;
   height: 40px;
   position: fixed;
-  background: url(../img/finder.png)no-repeat center/cover;
   color: #fff;
   right: 50px;
   bottom: 50px;
+  z-index: 9999;
 }
 
 /* span {
