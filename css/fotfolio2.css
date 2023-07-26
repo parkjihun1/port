@@ -998,6 +998,7 @@ top: 33%;
 left: 51%;
 transform: translate(-50%, -50%);
 display: block;
+display: none;
 width: 20vw;
 height: 20vw;
 min-height: 100px;
@@ -1109,10 +1110,14 @@ from { -webkit-transform: rotate(-1turn) translateY(-50px); transform: rotate(-1
   margin-right: 2rem;
   border-radius: 20px;
   transition: all 0.5s;
+  box-shadow: 2px 5px 5px gray ;
 }
 .clon-main .clon-box:hover {
   background-color: #4facfe;
   box-shadow: 2px 5px 5px gray ;
+}
+.clon-main .clon-box a {
+
 }
 .clon-main .clon-box:hover .clon-text p {
   color: #fff;
