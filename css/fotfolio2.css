@@ -720,6 +720,7 @@ header .header-two {
   font-family: 'Fira Sans', sans-serif;
   display: flex;
   background-color: #f8f9fa;
+  
 }
 .blog-slider {
   width: 100%;
@@ -808,7 +809,7 @@ header .header-two {
   flex-shrink: 0;
   height: 570px;
   background-image: linear-gradient(30deg, #8E78FF 0%, #B9DEDB 74%);
-  box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
+  box-shadow: 2px 6px 15px 1px rgba(252, 56, 56, 0.2);
   border-radius: 20px;
   transform: translateX(-80px);
   overflow: hidden;
@@ -828,7 +829,7 @@ header .header-two {
 }
 .blog-slider__img img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   display: block;
   opacity: 0;

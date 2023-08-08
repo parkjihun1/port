@@ -109,7 +109,7 @@ body {
     width: 100%;
     height: 1280px;
     position: relative;
-    background-color: gray;
+    /* background-color: gray; */
 }
 .slide-wrap {
     width: 100%;
